@@ -1,0 +1,11 @@
+.Container {
+  width: 65%;
+  background-color: white;
+  margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .Container {
+    width: 100%;
+  }
+}

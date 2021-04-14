@@ -1,0 +1,31 @@
+.Post {
+  padding: 0 2rem;
+  border-bottom: 1 solid #7f7f7f;
+}
+
+.Post:last-child {
+  border-bottom: none;
+}
+
+.Post > .content {
+  padding: 1.5rem;
+  border-bottom: 2px solid #ebebeb;
+}
+
+.Post > .content > h2 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+
+.Post > .content > p {
+  width: 100%;
+  color: #7f7f7f;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0;
+}
